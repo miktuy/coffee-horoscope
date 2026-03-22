@@ -39,3 +39,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Large Kaggle extracts (re-fetch: npm run data:kaggle — see data/raw/kaggle/README.md)
+/data/raw/kaggle/coffee-reviews/*.csv
